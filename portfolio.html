@@ -4,38 +4,114 @@
 	<title>My Portfolio</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
-	<!-- Reset CSS -->
-  <!-- <link rel="stylesheet" type="text/css" href="assets/css/style.css"> -->
+	<!-- Reset CSS -->  
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" type="text/css" href="https://bootswatch.com/solar/bootstrap.min.css"> -->
+  <link rel="stylesheet" type="text/css" href="https://bootswatch.com/darkly/bootstrap.min.css">
+  <style type="text/css">
+  	.game {
+  		width: 225px;
+  		height: 225px;
+  		margin: 6px;
+  	}
+
+  	h3 {  		
+  		font-family: Georgia, Times, "Times New Roman", serif;
+  		font-size: 22px;  		
+ 		position: absolute;
+ 		margin-left: 6px;
+  		bottom: 20px;
+  		width: 225px;
+  		padding: 15px;
+  		margin-bottom: 0;  		
+  		line-height: 30px;
+  		color: #fff;
+  		text-align: center;
+ 		background: #4aaaa5;  		
+  	}
+
+	.Rutgers {
+		padding: 13px;
+	}
+
+  </style>
   <!-- Style Sheet -->
 </head>
 <body>
-	<header>
-		<div class="row">
-			<div class="col-md-2"></div>
-			<div class="col-md-3">
-				<h1>Robert Rollner</h1>
-			</div>
-			<div class="col-md-4"></div>
-			<div class="col-md-3">
-				<nav class="NavBars-default">
-					<a href="index.html" target="_blank">About</a> |
-					<a href="contact.html" target="_blank">Contact</a> |
-					<a href="portfolio.html">Portfolio</a> |
-				</nav>
-			</div>
-		</div>		
-	</header>
+	<nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>     
+          </button>
+          <a class="navbar-brand" href="#">Robert Rollner</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Home</a></li>            
+            <li><a href="contact.html" target="_blank">Contact</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>           
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav><!--Header/Navbar end-->
+	<br>
+    <div class="row"><br></div>
+    <div class="row"><br></div>
+    <div class="row"><br></div>
 	<!-- Header and NavBars -->
+
 	<div class="container">
 		<div class="row">
-			<div class="col-md-6">
-				<div class="col-md-3">
-					
+			<div class="col-md-7">
+				<div class="col-md-6">
+					<a href="Hangman Pic" target="_blank">
+					<img class="game" src="https://raw.githubusercontent.com/satincoffins/Homework_Week1/master/assets/images/Hangman.png" alt="Responsive image" class="img-thumbnail"></a>
+						<h3>Hangman Game</h3>
 				</div>
-				<div class="col-md-3"></div>				
+				<div class="col-md-6">
+					<a href="RPG Game" target="_blank">
+					<img class="game" src="https://raw.githubusercontent.com/satincoffins/Homework_Week1/master/assets/images/RPG.jpg" alt="Responsive image" class="img-thumbnail"></a>
+					<h3>RPG Game</h3>				
+				</div>
+				<div class="row"></div>
+				<div class="col-md-6">						
+					<a href="Trivia Game" target="_blank">
+					<img class="game" src="https://raw.githubusercontent.com/satincoffins/Homework_Week1/master/assets/images/Trivia.jpg" alt="Responsive image" class="img-thumbnail"></a>	
+					<h3>Trivia Game</h3>			
+				</div>
+				<div class="col-md-6">
+					<a href="Rutgers Info Widget" target="_blank">
+					<img class="game" src="https://raw.githubusercontent.com/satincoffins/Homework_Week1/master/assets/images/Ino%20Widget.jpg" alt="Responsive image" class="img-thumbnail"></a>
+					<h3 class="Rutgers">Rutgers Info Widget</h3>		
+				</div>
+				<div class="row"></div>
+				<div class="col-md-6">
+					<a href="Rock Paper Scissors" target="_blank">
+						<img class="game" src="https://raw.githubusercontent.com/satincoffins/Homework_Week1/master/assets/images/rockPaperScissors.jpg" alt="Responsive image" class="img-thumbnail"></a>
+						<h3>Rock Paper Scissors</h3>					
+				</div>								
 			</div>
+		<div class="col-md-4">
+					<h2>Connect With Me</h2>
+					<div class="row">
+						<div class="col-md-3">
+							<a href="https://github.com/satincoffins" target="_blank"><img src="https://raw.githubusercontent.com/satincoffins/Homework_Week1/master/assets/images/github.png" height="40" width="40"></a>
+						</div>
+						<div class="col-md-3">
+							<a href="https://www.linkedin.com/in/robert-rollner-8b4443aa/" target="_blank"><img src="https://github.com/satincoffins/bootstrap-portfolio/blob/master/assets/images/linked-in-linkedin-logo-92FF20BA9B-seeklogo.com.png?raw=true" height="40" width="40"></a>
+						</div>
+						<div class="col-md-3">
+							<a href="https://stackoverflow.com/users/8146445/robert" target="_blank"><img src="https://raw.githubusercontent.com/satincoffins/Homework_Week1/master/assets/images/stack%20overflow.png" height="40" width="40"></a>
+						</div>
+						<div class="col-md-3"></div>					
+					</div>
+				</div>
+
 		</div>
+		<br>
 		<div class="row">
 			<footer class="footer">Copyright 2017 Robert Rollner</footer>
 		</div>

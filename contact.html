@@ -1,44 +1,122 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>My Portfolio</title>
+	<title>My Contact page</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
 	<!-- Reset CSS -->
   <!-- <link rel="stylesheet" type="text/css" href="assets/css/style.css"> -->
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" type="text/css" href="https://bootswatch.com/slate/bootstrap.min.css"> -->
+  <link rel="stylesheet" type="text/css" href="https://bootswatch.com/darkly/bootstrap.min.css">
+  <style type="text/css">
+  	hr {
+  		border: 2px solid #ee44ee;
+  	}
+  	/*.form-horizontal {
+  		border: 5px solid #5be;
+  	}*/
+  </style>
   <!-- Style Sheet -->
 </head>
 <body>
-	<header>
+	
+	<nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Robert Rollner</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Home</a></li>
+            <!-- <li><a href="index.html">About</a></li> -->
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="portfolio.html" target="_blank">Portfolio</a></li>           
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav><!--Header/Navbar end-->
+	<br>
+    <div class="row"><br></div>
+    <div class="row"><br></div>
+    <div class="row"><br></div>
+
+    <!-- Form -->
+    <div class="col-md-6">
+	<form class="form-horizontal">
+		<fieldset>
 		<div class="row">
-			<div class="col-md-2"></div>
-			<div class="col-md-3">
-				<h1>Robert Rollner</h1>
-			</div>
 			<div class="col-md-4"></div>
-			<div class="col-md-3">
-				<nav class="NavBars-default">
-					<a href="index.html" target="_blank">About</a> |
-					<a href="contact.html">Contact</a> |
-					<a href="portfolio.html" target="_blank">Portfolio</a> |
-				</nav>
-			</div>
-		</div>		
-	</header>
-	<!-- Header and NavBars -->
-	<div class="container">
-		<div class="row">
 			<div class="col-md-6">
-				<div class="col-md-3">
-					
-				</div>
-				<div class="col-md-3"></div>				
+			<legend><h1>Contact Me</h1></legend><hr>
+			
+			<div class="form-group">
+				<label for="exampleInputEmail">Your Name</label>
+					<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Name">
+			</div>				
+			
+			<div class="form-group">
+				<label for="exampleInputEmail">Email Address</label>
+				<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+			</div>
+
+			<div class="form-group">
+				<label for="exampleInputEmail">Message</label>
+					<textarea class="form-control" rows="5"></textarea>		
+			</div>
+
+			<div class="form-group">
+				<button type="submit" class="btn btn-default">Send Email</button>
+			</div>
+
 			</div>
 		</div>
-		<div class="row">
-			<footer class="footer">Copyright 2017 Robert Rollner</footer>
+		</fieldset>
+	</form>  
+	</div> 
+	<div class="col-md-6">
+
+	<!-- Connect with me box -->
+    <div class="row"><br></div>
+    <div class="row"><br></div>
+    <div class="row">
+				<div class="col-md-4"></div>
+				<div class="col-md-4">
+					<h2>Connect With Me</h2>
+					<div class="row">
+						<div class="col-md-3">
+							<a href="https://github.com/satincoffins" target="_blank"><img src="https://raw.githubusercontent.com/satincoffins/Homework_Week1/master/assets/images/github.png" height="40" width="40"></a>
+						</div>
+						<div class="col-md-3">
+							<a href="https://www.linkedin.com/in/robert-rollner-8b4443aa/" target="_blank"><img src="https://github.com/satincoffins/bootstrap-portfolio/blob/master/assets/images/linked-in-linkedin-logo-92FF20BA9B-seeklogo.com.png?raw=true" height="40" width="40"></a>
+						</div>
+						<div class="col-md-3">
+							<a href="https://stackoverflow.com/users/8146445/robert" target="_blank"><img src="https://raw.githubusercontent.com/satincoffins/Homework_Week1/master/assets/images/stack%20overflow.png" height="40" width="40"></a>
+						</div>
+						<div class="col-md-3"></div>					
+					</div>
+				</div>
+				<div class="col-md-4"></div>				
+			</div>
 		</div>
+
+<!-- Footer -->
+    <div class="row"><br></div>
+    <div class="row"><br></div>
+    <div class="row">	
+   	 	<footer class="footer">
+   	   		<div class="container">
+   	     		<p class="text-muted">Copyright 2017 Robert Rollner</p>
+   	   		</div>
+   	 	</footer>
 	</div>
 </body>
 </html>
